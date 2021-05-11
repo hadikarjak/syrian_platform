@@ -41,7 +41,7 @@ html {
 }
 
 .special-heading {
-    color: #ebeced;
+    color: #3E8E82;
     text-align: center;
     font-size: 100px;
     font-weight: 800;
@@ -52,7 +52,7 @@ html {
 .special-heading+p {
     margin: -35px 0 0;
     text-align: center;
-    color: #797979;
+    color: #fff;
     font-size: 25px;
     font-weight: 800;
 }
@@ -79,6 +79,7 @@ body {
 
 .header {
     padding: 20px;
+    background-color: #f1f1f2;
 }
 
 .header .container {
@@ -170,7 +171,6 @@ body {
 }
 
 .landing {
-    background-image: linear-gradient(var(--main-color), #fff);
     height: 300px;
     position: relative;
 }
@@ -183,6 +183,14 @@ body {
     transform: translate(-50%, -50%);
     width: 320px;
     max-width: 100%;
+}
+
+.landing .intro-text .lan-logo {
+    background-color: #f1f1f2;
+    padding: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 3px;
 }
 
 .landing .intro-text h2 {
@@ -200,7 +208,7 @@ body {
 .features {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #f6f6f6;
+    background-color: #fff;
 }
 
 .features .container {
@@ -215,7 +223,7 @@ body {
 }
 
 .features .feat i {
-    color: var(--main-color);
+    color: #3E8E82;
 }
 
 .features .feat h3 {
@@ -232,6 +240,7 @@ body {
 .services {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #f1f1f2;
 }
 
 .services .services-content {
@@ -254,7 +263,7 @@ body {
 }
 
 .services .services-content .srv i {
-    color: var(--main-color);
+    color: #3E8E82;
     flex-basis: 60px;
 }
 
@@ -279,13 +288,13 @@ body {
 
 .services .services-content .image::before {
     content: '';
-    background-color: var(--sec-color);
+    background-color: #3e8e82;
     width: 100px;
     height: calc(100% + 100px);
     position: absolute;
     right: 0;
     top: -50px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .services .services-content .image img {
@@ -301,7 +310,7 @@ body {
 .portfolio {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #fff;
+    background-color: #f1f1f2;
 }
 
 .portfolio .portfolio-content {
@@ -312,7 +321,7 @@ body {
 }
 
 .portfolio .portfolio-content .card {
-    background-color: white;
+    background-color: #f1f1f2;
     text-align: center;
 }
 
@@ -337,7 +346,7 @@ body {
 .about {
     padding-top: 60px;
     padding-bottom: 120px;
-    background-color: #f6f6f6;
+    background-color: #fff;
 }
 
 .about .about-content {
@@ -368,8 +377,8 @@ body {
 
 .about .about-content .image img {
     max-width: 100%;
-    border-top: 13px solid var(--main-color);
-    border-bottom: 13px solid var(--main-color);
+    border-top: 13px solid #3e8e82;
+    border-bottom: 13px solid #3e8e82;
 }
 
 .about .about-content .image::before {
@@ -426,7 +435,7 @@ body {
 .contact {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #fff;
+    background-color: #f1f1f2;
 }
 
 .contact .info {
@@ -447,7 +456,7 @@ body {
     display: block;
     font-size: 35px;
     font-weight: 800;
-    color: var(--main-color);
+    color: #3e8e82;
     text-decoration: none;
 }
 
@@ -460,7 +469,7 @@ body {
 
 .contact .info .social i {
     margin-left: 10px;
-    color: var(--sec-color);
+    color: #3e8e82;
 }
 
 @media(max-width:767px) {
@@ -473,7 +482,7 @@ body {
 .footer {
     text-align: center;
     background-color: var(--sec-color);
-    color: var(--main-color);
+    color: #3e8e82;
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
